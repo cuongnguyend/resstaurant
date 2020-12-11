@@ -1411,8 +1411,8 @@ footer .backdrop .red {
   header .slide_banner .carousel-item .content {
     font-size: 18px !important;
   }
-  header .slide_banner .carousel-item .button .btn {
-    padding: 5px 15px !important;
+  header .slide_banner .carousel-item .button {
+    display: none !important;
   }
   header .slide_banner .carousel-item img {
     width: 80%;
@@ -2593,8 +2593,8 @@ footer .backdrop .red {
   header .slide_banner .carousel-item .content {
     font-size: 18px !important;
   }
-  header .slide_banner .carousel-item .button .btn {
-    padding: 5px 15px !important;
+  header .slide_banner .carousel-item .button {
+    display: none !important;
   }
   header .slide_banner .carousel-item img {
     width: 80%;
