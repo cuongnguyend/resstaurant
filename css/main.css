@@ -93,7 +93,6 @@ header .slide_banner .carousel-inner .carousel-item .content {
 }
 header .slide_banner .carousel-inner .carousel-item .button .btn {
   padding: 7px 30px;
-  width: 170px;
   border-radius: none;
   background: #c3a281;
   color: #2b2b2b;
@@ -2680,5 +2679,4 @@ footer .backdrop .red {
     display: none;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
