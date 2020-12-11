@@ -667,7 +667,7 @@ main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .
   background: #c3a281;
 }
 main .shop {
-  background: url("/web/img/our_story/rice3-banner.png") no-repeat bottom -60px left -170px, url("/web/img/our_story/rice2-banner.png") no-repeat top -75px right -190px;
+  background: url("/img/our_story/rice3-banner.png") no-repeat bottom -60px left -170px, url("/img/our_story/rice2-banner.png") no-repeat top -75px right -190px;
   margin: 7% 0;
 }
 main .shop img {
@@ -1647,7 +1647,7 @@ main .evalute .bg_drop .wrap_chart .chart span {
   font-size: 40PX;
 }
 main .introduce {
-  background: url("/web/img/our_story/rice3-banner.png") no-repeat top -60px left -130px, url("/web/img/our_story/rice2-banner.png") no-repeat bottom -60px right -190px;
+  background: url("/img/our_story/rice3-banner.png") no-repeat top -60px left -130px, url("/img/our_story/rice2-banner.png") no-repeat bottom -60px right -190px;
 }
 main .introduce .contain {
   overflow: hidden;
@@ -1739,7 +1739,7 @@ main .introduce .contain .material .material2 .img img:nth-child(2) {
 
 main .our_service {
   margin-bottom: 30px;
-  background: url("/web/img/homepage/rice3-banner.png") no-repeat top 0px left 0px;
+  background: url("/img/homepage/rice3-banner.png") no-repeat top 0px left 0px;
 }
 main img {
   -o-object-fit: contain;
@@ -2680,4 +2680,5 @@ footer .backdrop .red {
     display: none;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
