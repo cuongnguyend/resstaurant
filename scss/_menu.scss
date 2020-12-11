@@ -1,0 +1,265 @@
+main {
+    .carousel-item {
+        margin: 50px 0;
+    }
+    .slide_product {
+        margin: 5% 0;
+        .product_tab_container {
+            .nav-pills .nav-item {
+                .nav-link1 {
+                    text-transform: uppercase;
+                    color: #696667;
+                    padding: 0 15px;
+                    font-size: 20px;
+                    font-family: Myriad Pro;
+                    letter-spacing: 1.5px;
+                    font-weight: 400;
+                    margin: 0 40px;
+                    text-decoration: none;
+                }
+                .active {
+                    border-bottom: 2px solid #c3a281;
+                    border-radius: none !important;
+                    background: none;
+                    color: #c3a281;
+                }
+            }
+            .backdrop_bg {
+                // height: 800px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                #pills-tabContent {
+                    color: white;
+                    // height: 800px;
+                    backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+                    .controls-top {
+                        .icon_prev,
+                        .icon_next {
+                            position: absolute;
+                            top: 40%;
+                            font-size: 30px;
+                            color: white;
+                            padding: 50px 15px;
+                            background: #c3a281;
+                            z-index: 1000;
+                        }
+                        .icon_next {
+                            right: 0;
+                        }
+                    }
+                    .tab {
+                        .slide1_wrapper {
+                            .gr1 img {
+                                object-fit: cover;
+                                width: 100%;
+                                padding: 15px;
+                            }
+                            .gr3 .content {
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                text-align: center;
+                                .plus {
+                                    margin-bottom: 20px;
+                                    cursor: pointer;
+                                    i {
+                                        padding: 35px 40px;
+                                        background: #c3a281;
+                                        font-size: 40px;
+                                        font-weight: normal;
+                                    }
+                                }
+                                button {
+                                    padding: 10px 20px;
+                                    background: white;
+                                    border: none;
+                                    cursor: pointer;
+                                    color: #c3a281;
+                                    i {
+                                        margin-left: 7px;
+                                    }
+                                }
+                            }
+                        }
+                        .carousel-indicators {
+                            position: absolute;
+                            bottom: -40px;
+                            z-index: 100;
+                            color: black;
+                            li {
+                                cursor: pointer;
+                                background: rgb(136, 136, 136);
+                                width: 50px;
+                            }
+                            .active {
+                                background: #c3a281;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .shop {
+        background: url('/web/img/our_story/rice3-banner.png') no-repeat bottom -60px left -170px, url('/web/img/our_story/rice2-banner.png') no-repeat top -75px right -190px;
+        margin: 7% 0;
+        img {
+            width: 100%;
+        }
+        .shop1,
+        .shop2 {
+            display: flex;
+            .img {
+                width: 30%;
+                padding-right: 50px;
+            }
+            .content {
+                width: 70%;
+                padding-top: 40px;
+                .title {
+                    font-size: 25px;
+                    color: #c3a281;
+                    font-weight: 500;
+                }
+                .searchbar {
+                    width: 40%;
+                    padding-top: 15px;
+                    padding-bottom: 40px;
+                    position: relative;
+                    input {
+                        width: 80%;
+                        padding: 7px 15px;
+                        width: 100%;
+                        height: 45px;
+                        border: #c3a281 2.5px solid;
+                    }
+                    .search {
+                        height: 45px;
+                        position: absolute;
+                        border: 2.5px solid#c3a281;
+                        border-left: none;
+                        padding: 0 8px;
+                        text-align: center;
+                        i {
+                            color: black;
+                            font-size: 30px;
+                            line-height: 100%;
+                            line-height: 40px;
+                        }
+                    }
+                }
+                .arrow {
+                    margin-left: 60px;
+                    padding-top: 15px;
+                    padding-bottom: 40px;
+                    a {
+                        width: 50px;
+                        height: 50px;
+                        border: 2.5px solid #c3a281;
+                        padding: 9px 15px;
+                        i {
+                            font-size: 20px;
+                            line-height: 45px;
+                            color: black;
+                        }
+                    }
+                }
+                .product {
+                    width: 90%;
+                    .product1 {
+                        padding-right: 15px;
+                        .title {
+                            font-size: 20px;
+                            width: 55%;
+                            text-align: center;
+                            border-bottom: 2px solid #c3a281;
+                            margin: 30px auto 15px auto;
+                        }
+                    }
+                }
+            }
+        }
+        .shop2 {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 5%;
+            .img {
+                padding-right: 0;
+                padding-left: 50px;
+            }
+            .content {
+                padding-left: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                .searchbar {
+                    margin-right: 65px;
+                }
+                .arrow {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
+
+@import 'footer';
+@import 'responsive';
+
+/* back to top  */
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 9999;
+    padding: 21px;
+    color: #fff;
+    background-color: #c3a281;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#toTopBtn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+#toTopBtn:hover {
+    background: #333;
+    color: #fff !important;
+    box-shadow: 0 0 20px rgb(196, 196, 196);
+    transition: all .3s ease-in-out;
+}
+
+.js .cd-top--fade-out {
+    opacity: .5
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s;
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+}
+
+
+/* back to top  */

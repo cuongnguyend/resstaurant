@@ -1,0 +1,2683 @@
+header {
+  background: url("/img/homepage/home-header.png");
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+}
+header .logo_res {
+  display: none;
+}
+header .res_menu {
+  display: none;
+}
+header .res_menu a {
+  color: white;
+}
+header .header_menu {
+  padding-top: 15px;
+  z-index: 1;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+header .header_menu .header_menu1 .close {
+  display: none;
+}
+header .header_menu #backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  z-index: 1;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  background: black;
+  opacity: 0;
+}
+header .header_menu div a {
+  color: #b29375;
+  margin: 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+header .header_menu .active a {
+  border-bottom: 1.5px solid #b29375;
+  color: white;
+}
+header .header_menu .logo {
+  margin: 0 40px;
+  -webkit-filter: brightness(1) contrast(100%);
+          filter: brightness(1) contrast(100%);
+}
+header .slide_banner {
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+header .slide_banner .carousel-inner {
+  text-align: center;
+}
+header .slide_banner .carousel-inner .carousel-item {
+  color: white;
+}
+header .slide_banner .carousel-inner .carousel-item .welcome {
+  font-family: pacifico;
+  font-size: 42px;
+  font-weight: 100;
+}
+header .slide_banner .carousel-inner .carousel-item .title_web {
+  letter-spacing: 5px;
+  margin-bottom: 0;
+  font-size: 75px;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .slide_banner .carousel-inner .carousel-item .title_web span {
+  color: #c3a281;
+}
+header .slide_banner .carousel-inner .carousel-item .content {
+  text-transform: uppercase;
+  font-size: 23px;
+}
+header .slide_banner .carousel-inner .carousel-item .button .btn {
+  padding: 7px 30px;
+  width: 170px;
+  border-radius: none;
+  background: #c3a281;
+  color: #2b2b2b;
+  margin: 0 15px;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .slide_banner .carousel-indicators {
+  top: 450px;
+  position: absolute;
+}
+header .slide_banner .carousel-indicators li {
+  cursor: pointer;
+}
+header .slide_banner .num {
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main .our_story {
+  background: url("../img/homepage/rice-banner.png") no-repeat top -270px right -160px, url("../img/homepage/rice2-banner.png") no-repeat right -130px bottom;
+  overflow: hidden;
+  position: relative;
+  padding: 100px 0;
+}
+main .our_story .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .our_story .content {
+  margin-left: 60px;
+  width: 30%;
+}
+main .our_story .content .title {
+  color: #c3a281;
+  font-size: 30px;
+  font-weight: 600;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+main .our_story .content .title div {
+  width: 250px;
+  height: 3px;
+  margin-left: 5px;
+  background: #c3a281;
+}
+main .our_story .content p {
+  color: #808080;
+  z-index: 1000;
+  font-weight: 500;
+}
+main .our_story .content .btn {
+  padding: 7px 30px;
+  width: 170px;
+  border-radius: none;
+  background: #c3a281;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .our_story .rice_banner {
+  width: auto;
+  z-index: 1;
+}
+main .our_story .rice_banner .img1 {
+  position: absolute;
+  right: -170px;
+  top: -220px;
+}
+main .our_story .rice_banner .img2 {
+  position: absolute;
+  right: -140px;
+  top: 210px;
+}
+main .carousel-item {
+  margin: 50px 0;
+}
+main .slide_product .product_tab_container .nav-pills .nav-item .nav-link1 {
+  text-transform: uppercase;
+  color: #696667;
+  padding: 0 15px;
+  font-family: Myriad Pro;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin: 0 20px;
+  text-decoration: none;
+}
+main .slide_product .product_tab_container .nav-pills .nav-item .active {
+  border-bottom: 2px solid #c3a281;
+  border-radius: none !important;
+  background: none;
+  color: #c3a281;
+}
+main .slide_product .product_tab_container .backdrop_bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent {
+  color: white;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .controls-top .icon_prev,
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .controls-top .icon_next {
+  position: absolute;
+  top: 40%;
+  font-size: 30px;
+  color: white;
+  padding: 50px 15px;
+  background: #c3a281;
+  z-index: 1000;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .controls-top .icon_next {
+  right: 0;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr1 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding: 15px;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content .plus {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content .plus i {
+  padding: 35px 40px;
+  background: #c3a281;
+  font-size: 40px;
+  font-weight: normal;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content button {
+  padding: 10px 20px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  color: #c3a281;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content button i {
+  margin-left: 7px;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .carousel-indicators {
+  position: absolute;
+  bottom: -40px;
+  z-index: 100;
+  color: black;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .carousel-indicators li {
+  cursor: pointer;
+  background: #888888;
+  width: 50px;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .carousel-indicators .active {
+  background: #c3a281;
+}
+main .our_service {
+  overflow: hidden;
+  margin-top: 80px;
+}
+main .our_service .title span {
+  font-size: 30px;
+  color: #c3a281;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 5px 50px;
+  border-bottom: 2px solid #c3a281;
+}
+main .our_service .title p {
+  margin-top: 17px;
+  font-family: Myriad Pro;
+  color: #525252;
+}
+main .our_service .rice_banner {
+  width: auto;
+  z-index: 1;
+}
+main .our_service .rice_banner .img1 {
+  position: absolute;
+  z-index: 0;
+  left: -149px;
+  top: -30px;
+}
+main .our_service .rice_banner .img2 {
+  position: absolute;
+  z-index: 0;
+  left: -140px;
+  top: 300px;
+}
+main .our_service .content-img {
+  z-index: 100;
+  margin: 30px auto;
+  margin-right: 0;
+}
+main .our_service .content-img .gr1 .content {
+  background: #c3a281;
+  width: 91%;
+  height: 100%;
+  margin: 15px;
+  padding-top: 15%;
+}
+main .our_service .content-img .gr1 .content button {
+  padding: 10px 20px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  color: #c3a281;
+}
+main .our_service .content-img .gr1 .content button i {
+  margin-left: 7px;
+}
+main .our_service .content-img .gr1 .home {
+  margin-top: 0 !important;
+}
+main .our_service .content-img .gr1 .car {
+  margin-bottom: 0 !important;
+}
+main .our_service .content-img .gr1 .plus1 {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 20px 30px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #d8d8d8;
+  opacity: 0.85;
+}
+main .our_service .content-img .gr1 .img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding: 15px;
+}
+main .our_service .content-img .gr3 {
+  position: relative;
+}
+main .our_service .content-img .gr3 .bg-drop {
+  position: absolute;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  bottom: 0;
+  padding: 30px 0;
+  text-align: center;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.25) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.25) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+main .our_service .content-img .gr3 .bg-drop div {
+  border-bottom: #c3a281 2px solid;
+  width: 30%;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  margin-bottom: 20PX;
+}
+main .our_service .content-img .gr3 .bg-drop p {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 20px;
+}
+main .our_service .content-img .gr3 .bg-drop button {
+  padding: 10px 20px;
+  background: #c3a281;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+main .our_service .content-img .gr3 .bg-drop button i {
+  margin-left: 7px;
+}
+main .our_service .content-img .gr3 img {
+  padding-right: 0 !important;
+}
+main .about_us {
+  z-index: 100;
+  margin-top: 50px;
+  position: relative;
+}
+main .about_us .backdrop_bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .about_us .backdrop_bg .content {
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+  padding-top: 40px;
+}
+main .about_us .backdrop_bg .content .slide_aboutus {
+  padding-bottom: 30px;
+  overflow: hidden;
+  width: 50%;
+  padding-left: 30px;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .back {
+  position: absolute;
+  z-index: 101;
+  top: 43%;
+  left: 0;
+  color: white !important;
+  background: #c3a281;
+  font-size: 30px;
+  padding: 40px 15px;
+  cursor: pointer;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 240px;
+  margin-top: 20px;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .slick-dots li {
+  width: 60px;
+  height: 3px;
+  margin: 0 10px;
+  background: #665444;
+  cursor: pointer;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .slick-dots .slick-active {
+  background: #c3a281;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .chef:focus {
+  outline: none;
+}
+main .about_us .backdrop_bg .content .slide_aboutus img {
+  width: 85%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .info {
+  background: #c3a281;
+  width: 85%;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .info h4 {
+  font-weight: 300;
+  margin-bottom: 0 !important;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .info p {
+  font-weight: 100;
+  margin-bottom: 0 !important;
+}
+main .about_us .backdrop_bg .content .slide_aboutus .info i {
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 12px 15px;
+}
+main .about_us .backdrop_bg .content .aboutus_content {
+  padding-top: 0px;
+  width: 50%;
+}
+main .about_us .backdrop_bg .content .aboutus_content .title {
+  color: #dab38d;
+  font-size: 30px;
+  font-weight: 500;
+  width: 50%;
+  border-bottom: 2px solid #c3a281;
+  margin-bottom: 10px;
+}
+main .about_us .backdrop_bg .content .aboutus_content img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+main .about_us .backdrop_bg .content .aboutus_content p {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  color: white;
+}
+main .contact {
+  background-image: url("../img/homepage/rice3-banner.png");
+  background-repeat: no-repeat;
+  background-position: left -150px bottom;
+}
+main .contact .wrapper_contact .rice_banner {
+  width: auto;
+  z-index: 1;
+}
+main .contact .wrapper_contact .rice_banner .img1 {
+  position: absolute;
+  left: -150px;
+  top: 200px;
+}
+main .contact .wrapper_contact .content {
+  z-index: 101;
+  padding: 50px;
+  width: 100%;
+  padding-bottom: 0;
+}
+main .contact .wrapper_contact .content .gr1 {
+  width: 35%;
+  padding-right: 15px;
+  margin-left: 150px;
+}
+main .contact .wrapper_contact .content .gr1 .title {
+  color: #dab38d;
+  font-size: 30px;
+  font-weight: 500;
+  width: 180px;
+  border-bottom: 2px solid #c3a281;
+  margin-bottom: 10px;
+}
+main .contact .wrapper_contact .content .gr2 {
+  width: 65%;
+}
+main .contact .wrapper_contact .content .gr2 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 85%;
+  -webkit-filter: contrast(1.2) brightness(1) sepia(0.3) saturate(1.5) hue-rotate(-100deg);
+          filter: contrast(1.2) brightness(1) sepia(0.3) saturate(1.5) hue-rotate(-100deg);
+}
+main .contact .wrapper_contact .content .popup {
+  position: absolute;
+  width: 45%;
+  left: 10%;
+  top: 200px;
+}
+main .contact .wrapper_contact .content .popup form {
+  padding: 50px;
+  background: #c3a281;
+}
+main .contact .wrapper_contact .content .popup form input,
+main .contact .wrapper_contact .content .popup form textarea {
+  margin-bottom: 15px;
+  padding: 10px 25px;
+  background: #c3a281;
+  border: 2px solid white;
+  color: white;
+}
+main .contact .wrapper_contact .content .popup form ::-webkit-input-placeholder {
+  color: white;
+}
+main .contact .wrapper_contact .content .popup form :-ms-input-placeholder {
+  color: white;
+}
+main .contact .wrapper_contact .content .popup form ::-ms-input-placeholder {
+  color: white;
+}
+main .contact .wrapper_contact .content .popup form ::placeholder {
+  color: white;
+}
+main .contact .wrapper_contact .content .popup form button {
+  width: 100px;
+  text-align: center;
+}
+
+main .carousel-item {
+  margin: 50px 0;
+}
+main .slide_product {
+  margin: 5% 0;
+}
+main .slide_product .product_tab_container .nav-pills .nav-item .nav-link1 {
+  text-transform: uppercase;
+  color: #696667;
+  padding: 0 15px;
+  font-size: 20px;
+  font-family: Myriad Pro;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin: 0 40px;
+  text-decoration: none;
+}
+main .slide_product .product_tab_container .nav-pills .nav-item .active {
+  border-bottom: 2px solid #c3a281;
+  border-radius: none !important;
+  background: none;
+  color: #c3a281;
+}
+main .slide_product .product_tab_container .backdrop_bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent {
+  color: white;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .controls-top .icon_prev,
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .controls-top .icon_next {
+  position: absolute;
+  top: 40%;
+  font-size: 30px;
+  color: white;
+  padding: 50px 15px;
+  background: #c3a281;
+  z-index: 1000;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .controls-top .icon_next {
+  right: 0;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr1 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding: 15px;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content .plus {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content .plus i {
+  padding: 35px 40px;
+  background: #c3a281;
+  font-size: 40px;
+  font-weight: normal;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content button {
+  padding: 10px 20px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  color: #c3a281;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .slide1_wrapper .gr3 .content button i {
+  margin-left: 7px;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .carousel-indicators {
+  position: absolute;
+  bottom: -40px;
+  z-index: 100;
+  color: black;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .carousel-indicators li {
+  cursor: pointer;
+  background: #888888;
+  width: 50px;
+}
+main .slide_product .product_tab_container .backdrop_bg #pills-tabContent .tab .carousel-indicators .active {
+  background: #c3a281;
+}
+main .shop {
+  background: url("/web/img/our_story/rice3-banner.png") no-repeat bottom -60px left -170px, url("/web/img/our_story/rice2-banner.png") no-repeat top -75px right -190px;
+  margin: 7% 0;
+}
+main .shop img {
+  width: 100%;
+}
+main .shop .shop1,
+main .shop .shop2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .shop .shop1 .img,
+main .shop .shop2 .img {
+  width: 30%;
+  padding-right: 50px;
+}
+main .shop .shop1 .content,
+main .shop .shop2 .content {
+  width: 70%;
+  padding-top: 40px;
+}
+main .shop .shop1 .content .title,
+main .shop .shop2 .content .title {
+  font-size: 25px;
+  color: #c3a281;
+  font-weight: 500;
+}
+main .shop .shop1 .content .searchbar,
+main .shop .shop2 .content .searchbar {
+  width: 40%;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  position: relative;
+}
+main .shop .shop1 .content .searchbar input,
+main .shop .shop2 .content .searchbar input {
+  width: 80%;
+  padding: 7px 15px;
+  width: 100%;
+  height: 45px;
+  border: #c3a281 2.5px solid;
+}
+main .shop .shop1 .content .searchbar .search,
+main .shop .shop2 .content .searchbar .search {
+  height: 45px;
+  position: absolute;
+  border: 2.5px solid #c3a281;
+  border-left: none;
+  padding: 0 8px;
+  text-align: center;
+}
+main .shop .shop1 .content .searchbar .search i,
+main .shop .shop2 .content .searchbar .search i {
+  color: black;
+  font-size: 30px;
+  line-height: 100%;
+  line-height: 40px;
+}
+main .shop .shop1 .content .arrow,
+main .shop .shop2 .content .arrow {
+  margin-left: 60px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+main .shop .shop1 .content .arrow a,
+main .shop .shop2 .content .arrow a {
+  width: 50px;
+  height: 50px;
+  border: 2.5px solid #c3a281;
+  padding: 9px 15px;
+}
+main .shop .shop1 .content .arrow a i,
+main .shop .shop2 .content .arrow a i {
+  font-size: 20px;
+  line-height: 45px;
+  color: black;
+}
+main .shop .shop1 .content .product,
+main .shop .shop2 .content .product {
+  width: 90%;
+}
+main .shop .shop1 .content .product .product1,
+main .shop .shop2 .content .product .product1 {
+  padding-right: 15px;
+}
+main .shop .shop1 .content .product .product1 .title,
+main .shop .shop2 .content .product .product1 .title {
+  font-size: 20px;
+  width: 55%;
+  text-align: center;
+  border-bottom: 2px solid #c3a281;
+  margin: 30px auto 15px auto;
+}
+main .shop .shop2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 5%;
+}
+main .shop .shop2 .img {
+  padding-right: 0;
+  padding-left: 50px;
+}
+main .shop .shop2 .content {
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+main .shop .shop2 .content .searchbar {
+  margin-right: 65px;
+}
+main .shop .shop2 .content .arrow {
+  margin-right: 15px;
+}
+
+footer {
+  background-image: url("../img/homepage/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #c7c7c7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .backdrop {
+  z-index: 1000;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.1) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.1) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+footer .backdrop .content {
+  padding: 50px 40px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid #c3a281;
+  font-size: 15px;
+  font-weight: 100;
+}
+footer .backdrop .content .col1 {
+  padding-right: 45px;
+}
+footer .backdrop .content .col1 .title {
+  color: #e9e9e9;
+}
+footer .backdrop .content .social {
+  margin: 0 auto;
+}
+footer .backdrop .content .social .contact_icon i {
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .backdrop .copyright {
+  padding: 10px 0 40px 40px;
+}
+footer .backdrop .red {
+  color: red;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    background-size: auto;
+  }
+  header .logo_res {
+    margin: 0 auto;
+    display: block;
+  }
+  header .logo {
+    display: none;
+  }
+
+  main .our_story {
+    padding: 30px 0 !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    background: url("../img/homepage/rice-banner.png") no-repeat top -270px right -160px !important;
+  }
+  main .our_story .img {
+    width: 96%;
+    margin: 0 auto;
+  }
+  main .our_story .img img {
+    width: 100%;
+  }
+  main .our_story .content {
+    text-align: center;
+    width: 50% !important;
+    margin: 20px auto !important;
+    margin-bottom: 20px;
+  }
+  main .our_story .content .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .our_story .content .title div {
+    display: none;
+  }
+  main .our_story .content .btn {
+    margin: 20px 0;
+  }
+  main .slide_product .slide1_wrapper .gr1 img {
+    padding: 10px !important;
+  }
+  main .our_service .content-img {
+    margin: 30px auto;
+  }
+  main .our_service .content-img .gr2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  main .our_service .content-img .gr1 button {
+    display: none;
+  }
+  main .our_service .content-img .gr1 .home {
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+  }
+  main .our_service .content-img .gr3 {
+    display: none;
+  }
+  main .about_us .slide_aboutus .info {
+    font-size: 13px;
+  }
+  main .about_us .slide_aboutus .info h4 {
+    display: none;
+  }
+  main .about_us .slide_aboutus .info p {
+    display: none;
+  }
+  main .about_us .slide_aboutus .slick-dots {
+    padding-left: 15% !important;
+  }
+  main .contact .gr1 {
+    margin-left: 50px !important;
+  }
+  main .contact .gr2 {
+    display: none;
+  }
+  main .contact .popup {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 60% !important;
+    margin-bottom: 30px;
+  }
+
+  main .introduce .contain .material .material1,
+  main .introduce .contain .material .material2,
+  main .introduce .contain .product .material1,
+  main .introduce .contain .product .material2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material1 .img,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .material .material2 .img,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material1 .img,
+  main .introduce .contain .product .material2 .content,
+  main .introduce .contain .product .material2 .img {
+    width: 100% !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material2 .content {
+    padding: 0;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material1 .content .title,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .material .material2 .content .title,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material1 .content .title,
+  main .introduce .contain .product .material2 .content p,
+  main .introduce .contain .product .material2 .content .title {
+    text-align: center !important;
+    width: auto;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material2 .content p {
+    margin-bottom: 30px;
+  }
+  main .evalute {
+    background-size: auto;
+  }
+
+  main .shop .img {
+    display: none;
+  }
+  main .shop .content {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  main .shop .content .product {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .shop .content .title,
+  main .shop .content p {
+    text-align: center;
+  }
+  main .shop .content .gr-search {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .shop2 .content .title,
+  main .shop2 .content p {
+    width: 100%;
+    text-align: center;
+  }
+
+  main .chef_list .chef_info .slide_chef .chef1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .info {
+    margin: 0;
+    width: 100%;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 1133px) {
+  main .primary_service .service2 {
+    margin-bottom: 30px;
+  }
+  main .primary_service .service1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .primary_service .service1 .img {
+    width: 100%;
+  }
+  main .primary_service .service1 .img img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main .primary_service .service1 .content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+  main .primary_service .service1 .content .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 30px;
+  }
+  main .primary_service .service1 .content .title div {
+    display: none;
+  }
+  main .primary_service .service1 .content .content1 {
+    font-size: 25px !important;
+  }
+  main .primary_service .service1 .backdrop,
+  main .primary_service .service1 .backdrop2 {
+    width: 100%;
+    padding: 20% 0;
+    font-size: 40PX;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    background-size: auto;
+  }
+  header .header_menu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-size: auto;
+    position: relative;
+  }
+  header .logo_res {
+    margin-left: 30%;
+    display: block;
+  }
+  header .res_menu {
+    display: block;
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+  }
+  header .header_menu1 {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    width: 0;
+    height: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    background: white;
+  }
+  header .header_menu1 .close {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  header .header_menu1 div {
+    padding: 5px 0;
+  }
+  header .header_menu1 div a {
+    color: black;
+  }
+  header .header_menu1 .active a {
+    border-bottom: none !important;
+    color: #b29375;
+  }
+  header .header_menu1 div:hover {
+    background: #b29375;
+  }
+  header .header_menu1 div:hover a {
+    color: white;
+  }
+  header .logo {
+    display: none;
+  }
+
+  main .our_story {
+    padding: 30px 0 !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    background: url("../img/homepage/rice-banner.png") no-repeat top -270px right -160px !important;
+  }
+  main .our_story .img {
+    width: 96%;
+    margin: 0 auto;
+  }
+  main .our_story .img img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .our_story .content {
+    text-align: center;
+    width: 50% !important;
+    margin: 20px auto !important;
+    margin-bottom: 20px;
+  }
+  main .our_story .content .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .our_story .content .title div {
+    display: none;
+  }
+  main .our_story .content .btn {
+    margin: 20px 0;
+  }
+  main .slide_product .slide1_wrapper .gr3 .content .plus i {
+    padding: 15px 20px;
+  }
+  main .slide_product .slide1_wrapper .gr3 .content button {
+    padding: 5px 10px;
+  }
+  main .slide_product .slide1_wrapper .gr1 img {
+    padding: 5px !important;
+  }
+  main .slide_product .slide1_wrapper .controls-top .icon_prev,
+  main .slide_product .slide1_wrapper .controls-top .icon_next {
+    font-size: 20px;
+    padding: 30px 10px;
+  }
+  main .our_service .content-img {
+    margin: 30px auto;
+  }
+  main .our_service .content-img .gr2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  main .our_service .content-img .gr1 button {
+    display: none;
+  }
+  main .our_service .content-img .gr1 .home {
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+  }
+  main .our_service .content-img .gr3 {
+    display: none;
+  }
+  main .about_us .backdrop_bg {
+    background-image: none !important;
+  }
+  main .about_us .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  main .about_us .content .aboutus_content {
+    margin-bottom: 20px;
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  main .about_us .content .aboutus_content div {
+    width: 100% !important;
+  }
+  main .about_us .content .aboutus_content p {
+    margin-bottom: 20px !important;
+  }
+  main .about_us .content .slide_aboutus {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  main .about_us .content .slide_aboutus .slick-dots {
+    padding-left: 31% !important;
+  }
+  main .about_us .content .slide_aboutus .slick-dots li::marker {
+    font-size: 0;
+  }
+  main .contact .gr1 {
+    margin-left: 50px !important;
+  }
+  main .contact .gr2 {
+    display: none;
+  }
+  main .contact .popup {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 60% !important;
+    margin-bottom: 30px;
+  }
+
+  main .evalute {
+    background-size: auto;
+  }
+  main .introduce .contain .material .material1,
+  main .introduce .contain .material .material2,
+  main .introduce .contain .product .material1,
+  main .introduce .contain .product .material2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material1 .img,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .material .material2 .img,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material1 .img,
+  main .introduce .contain .product .material2 .content,
+  main .introduce .contain .product .material2 .img {
+    width: 100% !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material2 .content {
+    padding: 0;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material1 .content .title,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .material .material2 .content .title,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material1 .content .title,
+  main .introduce .contain .product .material2 .content p,
+  main .introduce .contain .product .material2 .content .title {
+    text-align: center !important;
+    width: auto;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material2 .content p {
+    margin-bottom: 30px;
+  }
+
+  main .slide_product .nav-link1 {
+    font-size: 15px !important;
+  }
+  main .shop .img {
+    display: none;
+  }
+  main .shop .content {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  main .shop .content .product {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .shop .content .title,
+  main .shop .content p {
+    text-align: center;
+  }
+  main .shop .content .gr-search {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .shop2 .content .title,
+  main .shop2 .content p {
+    width: 100%;
+    text-align: center;
+  }
+
+  main .chef_list .chef_info .slide_chef .chef1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .info {
+    margin: 0;
+    width: 100%;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1024px) {
+  footer {
+    background-image: none !important;
+  }
+  footer .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    text-align: center;
+  }
+  footer .content .col1 {
+    padding-right: 0 !important;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 576px) {
+  header .slide_banner {
+    padding-top: 50px !important;
+    height: 450px !important;
+  }
+  header .slide_banner .carousel-item .title_web {
+    font-size: 45px !important;
+  }
+  header .slide_banner .carousel-item .welcome {
+    font-size: 35px;
+  }
+  header .slide_banner .carousel-item .content {
+    font-size: 18px !important;
+  }
+  header .slide_banner .carousel-item .button .btn {
+    padding: 5px 15px !important;
+  }
+  header .slide_banner .carousel-item img {
+    width: 80%;
+  }
+  header .slide_banner .carousel-indicators {
+    top: 350px !important;
+  }
+
+  main .our_story {
+    padding: 30px 0 !important;
+    background-image: none !important;
+  }
+  main .our_story .content {
+    width: 80% !important;
+  }
+  main .our_story .content .btn {
+    margin: 10px 0;
+  }
+  main .our_service {
+    margin-top: 50px;
+  }
+  main .our_service .content .content-img .gr1 img {
+    padding: 5px !important;
+  }
+  main .our_service .content .content-img .gr1 .content {
+    margin: 5px !important;
+  }
+  main .our_service .content .rice_banner {
+    display: none !important;
+  }
+  main .contact {
+    background-image: none !important;
+  }
+  main .contact .wrapper_contact .content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main .contact .wrapper_contact .content .gr1 {
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  main .contact .wrapper_contact .content .gr1 .title {
+    width: 100%;
+  }
+  main .contact .wrapper_contact .content .popup {
+    width: 100% !important;
+  }
+  main .slide_product .controls-top {
+    display: none !important;
+  }
+  main .slide_product .gr3 .content .plus i {
+    padding: 20px 25px !important;
+    font-size: 20px;
+  }
+  main .slide_product .gr3 .content button {
+    display: none;
+  }
+
+  main .shop .content .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .shop .content .product .product1 {
+    padding-right: 0 !important;
+  }
+  main .shop .content .product .product1:nth-child(1) {
+    padding-bottom: 20px;
+  }
+
+  .primary_service .service1 .backdrop div,
+  .primary_service .service1 .backdrop2 div {
+    display: none;
+  }
+
+  main .chef_list .chef_info .slide_chef .chef1 .img {
+    display: none;
+  }
+}
+/* back to top  */
+#toTopBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 9999;
+  padding: 21px;
+  color: #fff;
+  background-color: #c3a281;
+  border-radius: 100%;
+  text-align: center;
+}
+
+#toTopBtn i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+#toTopBtn:hover {
+  background: #333;
+  color: #fff !important;
+  -webkit-box-shadow: 0 0 20px #c4c4c4;
+          box-shadow: 0 0 20px #c4c4c4;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.js .cd-top--fade-out {
+  opacity: 0.5;
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s, visibility .3s, background-color .3s;
+  transition: opacity .3s, visibility .3s, background-color .3s;
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* back to top  */
+main .our_story {
+  background: url("../img/our_story/rice-banner.png") no-repeat top -270px right -160px, url("../img/our_story/rice2-banner.png") no-repeat right -130px bottom;
+  overflow: hidden;
+  position: relative;
+  padding: 100px 0;
+}
+main .our_story .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .our_story .content {
+  margin-left: 60px;
+  width: 30%;
+}
+main .our_story .content .title {
+  color: #c3a281;
+  font-size: 30px;
+  font-weight: 600;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+main .our_story .content .title div {
+  width: 250px;
+  height: 3px;
+  margin-left: 5px;
+  background: #c3a281;
+}
+main .our_story .content p {
+  color: #808080;
+  z-index: 1000;
+  font-weight: 500;
+}
+main .our_story .content .btn {
+  padding: 7px 30px;
+  width: 170px;
+  border-radius: none;
+  background: #c3a281;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .our_story .rice_banner {
+  width: auto;
+  z-index: 1;
+}
+main .our_story .rice_banner .img1 {
+  position: absolute;
+  right: -170px;
+  top: -220px;
+}
+main .our_story .rice_banner .img2 {
+  position: absolute;
+  right: -140px;
+  top: 210px;
+}
+main .evalute {
+  background-image: url("../img/our_story/bg-shop.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .evalute .bg_drop {
+  padding: 60px 15%;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+main .evalute .bg_drop .wrap_chart {
+  color: #c3a281;
+}
+main .evalute .bg_drop .wrap_chart .title {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+main .evalute .bg_drop .wrap_chart .chart {
+  margin: 0 70px;
+  position: relative;
+}
+main .evalute .bg_drop .wrap_chart .chart span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 40PX;
+}
+main .introduce {
+  background: url("/web/img/our_story/rice3-banner.png") no-repeat top -60px left -130px, url("/web/img/our_story/rice2-banner.png") no-repeat bottom -60px right -190px;
+}
+main .introduce .contain {
+  overflow: hidden;
+  margin: 10%;
+}
+main .introduce .contain .product {
+  margin-bottom: 0 !important;
+}
+main .introduce .contain .product .content {
+  padding-left: 8%;
+  padding-right: 0 !important;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+}
+main .introduce .contain .product,
+main .introduce .contain .material {
+  margin-bottom: 50px;
+}
+main .introduce .contain .product img,
+main .introduce .contain .material img {
+  width: 100%;
+}
+main .introduce .contain .product .content,
+main .introduce .contain .material .content {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 30px;
+  padding-right: 8%;
+}
+main .introduce .contain .product .content .title,
+main .introduce .contain .material .content .title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #c3a281;
+  font-weight: 500;
+  width: 70%;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #c3a281;
+}
+main .introduce .contain .product .content p,
+main .introduce .contain .material .content p {
+  font-weight: 500;
+  color: #474747;
+}
+main .introduce .contain .product .img,
+main .introduce .contain .material .img {
+  position: relative;
+}
+main .introduce .contain .product .img .play,
+main .introduce .contain .material .img .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 5% 6%;
+  background: white;
+  border-radius: 100%;
+}
+main .introduce .contain .product .img .play i,
+main .introduce .contain .material .img .play i {
+  font-size: 25px;
+}
+main .introduce .contain .product .material1 .content,
+main .introduce .contain .product .material1 .img,
+main .introduce .contain .product .material2 .content,
+main .introduce .contain .product .material2 .img,
+main .introduce .contain .material .material1 .content,
+main .introduce .contain .material .material1 .img,
+main .introduce .contain .material .material2 .content,
+main .introduce .contain .material .material2 .img {
+  width: 50%;
+}
+main .introduce .contain .product .material1,
+main .introduce .contain .material .material1 {
+  padding-bottom: 20px;
+}
+main .introduce .contain .product .material2 .img img:nth-child(1),
+main .introduce .contain .material .material2 .img img:nth-child(1) {
+  padding-right: 10px;
+}
+main .introduce .contain .product .material2 .img img:nth-child(2),
+main .introduce .contain .material .material2 .img img:nth-child(2) {
+  padding-left: 10px;
+}
+
+main .our_service {
+  margin-bottom: 30px;
+  background: url("/web/img/homepage/rice3-banner.png") no-repeat top 0px left 0px;
+}
+main img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .primary_service {
+  overflow: hidden;
+}
+main .primary_service .service1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .primary_service .service1 .img {
+  width: 60%;
+  position: relative;
+}
+main .primary_service .service1 .img img {
+  width: 100%;
+}
+main .primary_service .service1 .img .backdrop {
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.3) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.3) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 0;
+  padding: 25% 10%;
+  text-align: center;
+  color: #c3a281;
+}
+main .primary_service .service1 .img .backdrop img {
+  width: auto;
+}
+main .primary_service .service1 .img .backdrop .mt-1 {
+  font-size: 20px;
+  color: white;
+}
+main .primary_service .service1 .content {
+  padding-left: 30px;
+  width: 30%;
+}
+main .primary_service .service1 .content .title {
+  padding-top: 50px;
+  color: #c3a281;
+  font-size: 27PX;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+main .primary_service .service1 .content .title div {
+  width: 30%;
+  height: 3px;
+  margin-left: 5px;
+  background: #c3a281;
+}
+main .primary_service .service1 .content .content1 {
+  margin-top: 20px;
+}
+main .primary_service .service1 .content .content1 h5 {
+  color: #c3a281;
+  margin-bottom: 20px;
+}
+main .primary_service .service1 .content .content1 p {
+  font-size: 15px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+}
+main .primary_service .service2 {
+  margin-top: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+main .primary_service .service2 .img {
+  overflow: hidden;
+  position: relative;
+}
+main .primary_service .service2 .img .backdrop2 {
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.4) saturate(1.5) hue-rotate(-10deg);
+          backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.4) saturate(1.5) hue-rotate(-10deg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  text-align: center;
+  padding: 20% 10%;
+  color: #c3a281;
+}
+main .primary_service .service2 .img .backdrop2 img {
+  width: auto;
+}
+main .primary_service .service2 .img .backdrop2 .mt-1 {
+  font-size: 20px;
+  color: white;
+}
+main .primary_service .service2 .content {
+  padding-right: 30px;
+  padding-left: 0;
+}
+main .primary_service .service2 .content .title {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+main .primary_service .service2 .content .title div {
+  margin-right: 5px;
+}
+
+main .evalute {
+  margin-top: 40px;
+}
+main .chef_list {
+  background: #dacaba;
+}
+main .chef_list .chef_info {
+  width: 80%;
+  padding: 30px 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .chef_list .chef_info .slide_chef {
+  width: 100%;
+}
+main .chef_list .chef_info .slide_chef .chef1 {
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .chef_list .chef_info .slide_chef .chef1 .img {
+  width: 50%;
+}
+main .chef_list .chef_info .slide_chef .chef1 .img img {
+  width: 100%;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info {
+  width: 50%;
+  background: black;
+  color: white;
+  margin-right: 10px;
+  padding: 7%;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info .title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info .social {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #c3a281;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info .social i {
+  margin: 0 15px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #d4cac0;
+  border-radius: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info .social i:first-child {
+  margin-left: 0 !important;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info p {
+  font-size: 17px;
+  margin-bottom: 0;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info button {
+  padding: 2% 15%;
+  color: #464646;
+  background: #c3a281;
+}
+main .chef_list .chef_info .slide_chef .chef1 .info i {
+  padding: 2%;
+  border: 2px solid #c3a281;
+  margin-left: 5px;
+}
+main .chef_list .chef_info .slide_chef .chef1 .next {
+  margin-top: 20px;
+}
+main .chef_list .chef_info .slide_chef .slick-slide:focus {
+  outline: none;
+}
+main .chef_list .chef_info .slide_chef .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: -30px;
+  top: 25%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main .chef_list .chef_info .slide_chef .slick-dots li {
+  list-style: none;
+  width: 5px;
+  height: 60px;
+  margin: 5px 0;
+  background: #665444;
+  cursor: pointer;
+}
+main .chef_list .chef_info .slide_chef .slick-dots li.slick-active {
+  background: #c3a281;
+}
+main .chef_list .chef_info1 .slide_chef .chef1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+main .chef_list .chef_info1 .slide_chef .chef1 .info {
+  margin-right: 0;
+  margin-left: 10px;
+}
+main .chef_list .chef_info1 .slide_chef .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: -30px;
+  top: 25%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  background-image: url("../img/homepage/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #c7c7c7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .backdrop {
+  z-index: 1000;
+  -webkit-backdrop-filter: contrast(1.2) brightness(0.1) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+          backdrop-filter: contrast(1.2) brightness(0.1) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
+footer .backdrop .content {
+  padding: 50px 40px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid #c3a281;
+  font-size: 15px;
+  font-weight: 100;
+}
+footer .backdrop .content .col1 {
+  padding-right: 45px;
+}
+footer .backdrop .content .col1 .title {
+  color: #e9e9e9;
+}
+footer .backdrop .content .social {
+  margin: 0 auto;
+}
+footer .backdrop .content .social .contact_icon i {
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .backdrop .copyright {
+  padding: 10px 0 40px 40px;
+}
+footer .backdrop .red {
+  color: red;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    background-size: auto;
+  }
+  header .logo_res {
+    margin: 0 auto;
+    display: block;
+  }
+  header .logo {
+    display: none;
+  }
+
+  main .our_story {
+    padding: 30px 0 !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    background: url("../img/homepage/rice-banner.png") no-repeat top -270px right -160px !important;
+  }
+  main .our_story .img {
+    width: 96%;
+    margin: 0 auto;
+  }
+  main .our_story .img img {
+    width: 100%;
+  }
+  main .our_story .content {
+    text-align: center;
+    width: 50% !important;
+    margin: 20px auto !important;
+    margin-bottom: 20px;
+  }
+  main .our_story .content .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .our_story .content .title div {
+    display: none;
+  }
+  main .our_story .content .btn {
+    margin: 20px 0;
+  }
+  main .slide_product .slide1_wrapper .gr1 img {
+    padding: 10px !important;
+  }
+  main .our_service .content-img {
+    margin: 30px auto;
+  }
+  main .our_service .content-img .gr2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  main .our_service .content-img .gr1 button {
+    display: none;
+  }
+  main .our_service .content-img .gr1 .home {
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+  }
+  main .our_service .content-img .gr3 {
+    display: none;
+  }
+  main .about_us .slide_aboutus .info {
+    font-size: 13px;
+  }
+  main .about_us .slide_aboutus .info h4 {
+    display: none;
+  }
+  main .about_us .slide_aboutus .info p {
+    display: none;
+  }
+  main .about_us .slide_aboutus .slick-dots {
+    padding-left: 15% !important;
+  }
+  main .contact .gr1 {
+    margin-left: 50px !important;
+  }
+  main .contact .gr2 {
+    display: none;
+  }
+  main .contact .popup {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 60% !important;
+    margin-bottom: 30px;
+  }
+
+  main .introduce .contain .material .material1,
+  main .introduce .contain .material .material2,
+  main .introduce .contain .product .material1,
+  main .introduce .contain .product .material2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material1 .img,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .material .material2 .img,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material1 .img,
+  main .introduce .contain .product .material2 .content,
+  main .introduce .contain .product .material2 .img {
+    width: 100% !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material2 .content {
+    padding: 0;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material1 .content .title,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .material .material2 .content .title,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material1 .content .title,
+  main .introduce .contain .product .material2 .content p,
+  main .introduce .contain .product .material2 .content .title {
+    text-align: center !important;
+    width: auto;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material2 .content p {
+    margin-bottom: 30px;
+  }
+  main .evalute {
+    background-size: auto;
+  }
+
+  main .shop .img {
+    display: none;
+  }
+  main .shop .content {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  main .shop .content .product {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .shop .content .title,
+  main .shop .content p {
+    text-align: center;
+  }
+  main .shop .content .gr-search {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .shop2 .content .title,
+  main .shop2 .content p {
+    width: 100%;
+    text-align: center;
+  }
+
+  main .chef_list .chef_info .slide_chef .chef1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .info {
+    margin: 0;
+    width: 100%;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 1133px) {
+  main .primary_service .service2 {
+    margin-bottom: 30px;
+  }
+  main .primary_service .service1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .primary_service .service1 .img {
+    width: 100%;
+  }
+  main .primary_service .service1 .img img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main .primary_service .service1 .content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+  main .primary_service .service1 .content .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 30px;
+  }
+  main .primary_service .service1 .content .title div {
+    display: none;
+  }
+  main .primary_service .service1 .content .content1 {
+    font-size: 25px !important;
+  }
+  main .primary_service .service1 .backdrop,
+  main .primary_service .service1 .backdrop2 {
+    width: 100%;
+    padding: 20% 0;
+    font-size: 40PX;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    background-size: auto;
+  }
+  header .header_menu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-size: auto;
+    position: relative;
+  }
+  header .logo_res {
+    margin-left: 30%;
+    display: block;
+  }
+  header .res_menu {
+    display: block;
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+  }
+  header .header_menu1 {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    width: 0;
+    height: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    background: white;
+  }
+  header .header_menu1 .close {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  header .header_menu1 div {
+    padding: 5px 0;
+  }
+  header .header_menu1 div a {
+    color: black;
+  }
+  header .header_menu1 .active a {
+    border-bottom: none !important;
+    color: #b29375;
+  }
+  header .header_menu1 div:hover {
+    background: #b29375;
+  }
+  header .header_menu1 div:hover a {
+    color: white;
+  }
+  header .logo {
+    display: none;
+  }
+
+  main .our_story {
+    padding: 30px 0 !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    background: url("../img/homepage/rice-banner.png") no-repeat top -270px right -160px !important;
+  }
+  main .our_story .img {
+    width: 96%;
+    margin: 0 auto;
+  }
+  main .our_story .img img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .our_story .content {
+    text-align: center;
+    width: 50% !important;
+    margin: 20px auto !important;
+    margin-bottom: 20px;
+  }
+  main .our_story .content .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .our_story .content .title div {
+    display: none;
+  }
+  main .our_story .content .btn {
+    margin: 20px 0;
+  }
+  main .slide_product .slide1_wrapper .gr3 .content .plus i {
+    padding: 15px 20px;
+  }
+  main .slide_product .slide1_wrapper .gr3 .content button {
+    padding: 5px 10px;
+  }
+  main .slide_product .slide1_wrapper .gr1 img {
+    padding: 5px !important;
+  }
+  main .slide_product .slide1_wrapper .controls-top .icon_prev,
+  main .slide_product .slide1_wrapper .controls-top .icon_next {
+    font-size: 20px;
+    padding: 30px 10px;
+  }
+  main .our_service .content-img {
+    margin: 30px auto;
+  }
+  main .our_service .content-img .gr2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  main .our_service .content-img .gr1 button {
+    display: none;
+  }
+  main .our_service .content-img .gr1 .home {
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+  }
+  main .our_service .content-img .gr3 {
+    display: none;
+  }
+  main .about_us .backdrop_bg {
+    background-image: none !important;
+  }
+  main .about_us .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  main .about_us .content .aboutus_content {
+    margin-bottom: 20px;
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  main .about_us .content .aboutus_content div {
+    width: 100% !important;
+  }
+  main .about_us .content .aboutus_content p {
+    margin-bottom: 20px !important;
+  }
+  main .about_us .content .slide_aboutus {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  main .about_us .content .slide_aboutus .slick-dots {
+    padding-left: 31% !important;
+  }
+  main .about_us .content .slide_aboutus .slick-dots li::marker {
+    font-size: 0;
+  }
+  main .contact .gr1 {
+    margin-left: 50px !important;
+  }
+  main .contact .gr2 {
+    display: none;
+  }
+  main .contact .popup {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 60% !important;
+    margin-bottom: 30px;
+  }
+
+  main .evalute {
+    background-size: auto;
+  }
+  main .introduce .contain .material .material1,
+  main .introduce .contain .material .material2,
+  main .introduce .contain .product .material1,
+  main .introduce .contain .product .material2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material1 .img,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .material .material2 .img,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material1 .img,
+  main .introduce .contain .product .material2 .content,
+  main .introduce .contain .product .material2 .img {
+    width: 100% !important;
+  }
+  main .introduce .contain .material .material1 .content,
+  main .introduce .contain .material .material2 .content,
+  main .introduce .contain .product .material1 .content,
+  main .introduce .contain .product .material2 .content {
+    padding: 0;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material1 .content .title,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .material .material2 .content .title,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material1 .content .title,
+  main .introduce .contain .product .material2 .content p,
+  main .introduce .contain .product .material2 .content .title {
+    text-align: center !important;
+    width: auto;
+  }
+  main .introduce .contain .material .material1 .content p,
+  main .introduce .contain .material .material2 .content p,
+  main .introduce .contain .product .material1 .content p,
+  main .introduce .contain .product .material2 .content p {
+    margin-bottom: 30px;
+  }
+
+  main .slide_product .nav-link1 {
+    font-size: 15px !important;
+  }
+  main .shop .img {
+    display: none;
+  }
+  main .shop .content {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  main .shop .content .product {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main .shop .content .title,
+  main .shop .content p {
+    text-align: center;
+  }
+  main .shop .content .gr-search {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .shop2 .content .title,
+  main .shop2 .content p {
+    width: 100%;
+    text-align: center;
+  }
+
+  main .chef_list .chef_info .slide_chef .chef1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .info {
+    margin: 0;
+    width: 100%;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  main .chef_list .chef_info .slide_chef .chef1 .img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1024px) {
+  footer {
+    background-image: none !important;
+  }
+  footer .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    text-align: center;
+  }
+  footer .content .col1 {
+    padding-right: 0 !important;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 576px) {
+  header .slide_banner {
+    padding-top: 50px !important;
+    height: 450px !important;
+  }
+  header .slide_banner .carousel-item .title_web {
+    font-size: 45px !important;
+  }
+  header .slide_banner .carousel-item .welcome {
+    font-size: 35px;
+  }
+  header .slide_banner .carousel-item .content {
+    font-size: 18px !important;
+  }
+  header .slide_banner .carousel-item .button .btn {
+    padding: 5px 15px !important;
+  }
+  header .slide_banner .carousel-item img {
+    width: 80%;
+  }
+  header .slide_banner .carousel-indicators {
+    top: 350px !important;
+  }
+
+  main .our_story {
+    padding: 30px 0 !important;
+    background-image: none !important;
+  }
+  main .our_story .content {
+    width: 80% !important;
+  }
+  main .our_story .content .btn {
+    margin: 10px 0;
+  }
+  main .our_service {
+    margin-top: 50px;
+  }
+  main .our_service .content .content-img .gr1 img {
+    padding: 5px !important;
+  }
+  main .our_service .content .content-img .gr1 .content {
+    margin: 5px !important;
+  }
+  main .our_service .content .rice_banner {
+    display: none !important;
+  }
+  main .contact {
+    background-image: none !important;
+  }
+  main .contact .wrapper_contact .content {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  main .contact .wrapper_contact .content .gr1 {
+    margin: 0 !important;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  main .contact .wrapper_contact .content .gr1 .title {
+    width: 100%;
+  }
+  main .contact .wrapper_contact .content .popup {
+    width: 100% !important;
+  }
+  main .slide_product .controls-top {
+    display: none !important;
+  }
+  main .slide_product .gr3 .content .plus i {
+    padding: 20px 25px !important;
+    font-size: 20px;
+  }
+  main .slide_product .gr3 .content button {
+    display: none;
+  }
+
+  main .shop .content .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .shop .content .product .product1 {
+    padding-right: 0 !important;
+  }
+  main .shop .content .product .product1:nth-child(1) {
+    padding-bottom: 20px;
+  }
+
+  .primary_service .service1 .backdrop div,
+  .primary_service .service1 .backdrop2 div {
+    display: none;
+  }
+
+  main .chef_list .chef_info .slide_chef .chef1 .img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

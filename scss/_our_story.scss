@@ -1,0 +1,156 @@
+main {
+    .our_story {
+        background: url('../img/our_story/rice-banner.png') no-repeat top -270px right -160px, url('../img/our_story/rice2-banner.png') no-repeat right -130px bottom;
+        overflow: hidden;
+        position: relative;
+        padding: 100px 0;
+        .img img {
+            object-fit: cover;
+        }
+        .content {
+            margin-left: 60px;
+            width: 30%;
+            .title {
+                color: #c3a281;
+                font-size: 30px;
+                font-weight: 600;
+                align-items: baseline;
+                div {
+                    width: 250px;
+                    height: 3px;
+                    margin-left: 5px;
+                    background: #c3a281;
+                    // border-bottom: 2px solid #c3a281;
+                }
+            }
+            p {
+                color: #808080;
+                z-index: 1000;
+                font-weight: 500;
+            }
+            .btn {
+                padding: 7px 30px;
+                width: 170px;
+                border-radius: none;
+                background: #c3a281;
+                margin-top: 40px;
+                align-items: center;
+            }
+        }
+        .rice_banner {
+            width: auto;
+            z-index: 1;
+            .img1 {
+                position: absolute;
+                right: -170px;
+                top: -220px;
+            }
+            .img2 {
+                position: absolute;
+                right: -140px;
+                top: 210px;
+            }
+        }
+    }
+    .evalute {
+        background-image: url('../img/our_story/bg-shop.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        .bg_drop {
+            padding: 60px 15%;
+            backdrop-filter: contrast(1.2) brightness(0.2) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+            .wrap_chart {
+                color: #c3a281;
+                .title {
+                    font-size: 20px;
+                    color: #fff;
+                    margin-bottom: 0;
+                    margin-top: 10px;
+                }
+                .chart {
+                    margin: 0 70px;
+                    position: relative;
+                    span {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        color: #fff;
+                        font-size: 40PX;
+                    }
+                }
+            }
+        }
+    }
+    .introduce {
+        background: url('/web/img/our_story/rice3-banner.png') no-repeat top -60px left -130px, url('/web/img/our_story/rice2-banner.png') no-repeat bottom -60px right -190px;
+        .contain {
+            overflow: hidden;
+            margin: 10%;
+            .product {
+                margin-bottom: 0 !important;
+                .content {
+                    padding-left: 8%;
+                    padding-right: 0 !important;
+                    align-items: flex-start !important;
+                }
+            }
+            .product,
+            .material {
+                margin-bottom: 50px;
+                img {
+                    width: 100%;
+                }
+                .content {
+                    align-items: flex-end;
+                    padding-top: 30px;
+                    padding-right: 8%;
+                    .title {
+                        text-transform: uppercase;
+                        font-size: 20px;
+                        color: #c3a281;
+                        font-weight: 500;
+                        width: 70%;
+                        padding-bottom: 10px;
+                        margin-bottom: 20px;
+                        border-bottom: 3px solid #c3a281;
+                    }
+                    p {
+                        font-weight: 500;
+                        color: #474747;
+                    }
+                }
+                .img {
+                    position: relative;
+                    .play {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        padding: 5% 6%;
+                        background: white;
+                        border-radius: 100%;
+                        i {
+                            font-size: 25px;
+                        }
+                    }
+                }
+                .material1 .content,
+                .material1 .img,
+                .material2 .content,
+                .material2 .img {
+                    width: 50%;
+                }
+                .material1 {
+                    padding-bottom: 20px;
+                }
+                .material2 .img img:nth-child(1) {
+                    padding-right: 10px;
+                }
+                .material2 .img img:nth-child(2) {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}

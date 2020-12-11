@@ -1,0 +1,453 @@
+// $colorchinh=#c3a281;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    .our_story {
+        background: url('../img/homepage/rice-banner.png') no-repeat top -270px right -160px, url('../img/homepage/rice2-banner.png') no-repeat right -130px bottom;
+        overflow: hidden;
+        position: relative;
+        padding: 100px 0;
+        .img img {
+            object-fit: cover;
+        }
+        .content {
+            margin-left: 60px;
+            width: 30%;
+            .title {
+                color: #c3a281;
+                font-size: 30px;
+                font-weight: 600;
+                align-items: baseline;
+                div {
+                    width: 250px;
+                    height: 3px;
+                    margin-left: 5px;
+                    background: #c3a281;
+                    // border-bottom: 2px solid #c3a281;
+                }
+            }
+            p {
+                color: #808080;
+                z-index: 1000;
+                font-weight: 500;
+            }
+            .btn {
+                padding: 7px 30px;
+                width: 170px;
+                border-radius: none;
+                background: #c3a281;
+                margin-top: 40px;
+                align-items: center;
+            }
+        }
+        .rice_banner {
+            width: auto;
+            z-index: 1;
+            .img1 {
+                position: absolute;
+                right: -170px;
+                top: -220px;
+            }
+            .img2 {
+                position: absolute;
+                right: -140px;
+                top: 210px;
+            }
+        }
+    }
+    .carousel-item {
+        margin: 50px 0;
+        // margin-left: 50px;
+        // align-self: center;
+    }
+    .slide_product {
+        .product_tab_container {
+            .nav-pills .nav-item {
+                .nav-link1 {
+                    text-transform: uppercase;
+                    color: #696667;
+                    padding: 0 15px;
+                    font-family: Myriad Pro;
+                    letter-spacing: 1.5px;
+                    font-weight: 400;
+                    margin: 0 20px;
+                    text-decoration: none;
+                }
+                .active {
+                    border-bottom: 2px solid #c3a281;
+                    border-radius: none !important;
+                    background: none;
+                    color: #c3a281;
+                }
+            }
+            .backdrop_bg {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                #pills-tabContent {
+                    color: white;
+                    backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+                    .controls-top {
+                        .icon_prev,
+                        .icon_next {
+                            position: absolute;
+                            top: 40%;
+                            font-size: 30px;
+                            color: white;
+                            padding: 50px 15px;
+                            background: #c3a281;
+                            z-index: 1000;
+                        }
+                        .icon_next {
+                            right: 0;
+                        }
+                    }
+                    .tab {
+                        .slide1_wrapper {
+                            .gr1 img {
+                                object-fit: cover;
+                                width: 100%;
+                                padding: 15px;
+                            }
+                            .gr3 .content {
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                text-align: center;
+                                .plus {
+                                    margin-bottom: 20px;
+                                    cursor: pointer;
+                                    i {
+                                        padding: 35px 40px;
+                                        background: #c3a281;
+                                        font-size: 40px;
+                                        font-weight: normal;
+                                    }
+                                }
+                                button {
+                                    padding: 10px 20px;
+                                    background: white;
+                                    border: none;
+                                    cursor: pointer;
+                                    color: #c3a281;
+                                    i {
+                                        margin-left: 7px;
+                                    }
+                                }
+                            }
+                        }
+                        .carousel-indicators {
+                            position: absolute;
+                            bottom: -40px;
+                            z-index: 100;
+                            color: black;
+                            li {
+                                cursor: pointer;
+                                background: rgb(136, 136, 136);
+                                width: 50px;
+                            }
+                            .active {
+                                background: #c3a281;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .our_service {
+        overflow: hidden;
+        margin-top: 80px;
+        .title {
+            span {
+                font-size: 30px;
+                // font-family: Myriad Pro;
+                color: #c3a281;
+                letter-spacing: 1px;
+                font-weight: 500;
+                padding: 5px 50px;
+                border-bottom: 2px solid #c3a281;
+            }
+            p {
+                margin-top: 17px;
+                font-family: Myriad Pro;
+                color: #525252;
+            }
+        }
+        .rice_banner {
+            width: auto;
+            z-index: 1;
+            .img1 {
+                position: absolute;
+                z-index: 0;
+                left: -149px;
+                top: -30px;
+            }
+            .img2 {
+                position: absolute;
+                z-index: 0;
+                left: -140px;
+                top: 300px;
+            }
+        }
+        .content-img {
+            z-index: 100;
+            margin: 30px auto;
+            margin-right: 0;
+            .gr1 {
+                .content {
+                    background: #c3a281;
+                    width: 91%;
+                    height: 100%;
+                    margin: 15px;
+                    padding-top: 15%;
+                    button {
+                        padding: 10px 20px;
+                        background: white;
+                        border: none;
+                        cursor: pointer;
+                        color: #c3a281;
+                        i {
+                            margin-left: 7px;
+                        }
+                    }
+                }
+                .home {
+                    margin-top: 0 !important;
+                }
+                .car {
+                    margin-bottom: 0 !important;
+                }
+                .plus1 {
+                    top: 50%;
+                    left: 50%;
+                    text-align: center;
+                    padding: 20px 30px;
+                    transform: translate(-50%, -50%);
+                    background: rgb(216, 216, 216);
+                    opacity: 0.85;
+                }
+                .img {
+                    object-fit: cover;
+                    width: 100%;
+                    padding: 15px;
+                }
+            }
+            .gr3 {
+                position: relative;
+                .bg-drop {
+                    position: absolute;
+                    margin-left: 15px;
+                    margin-bottom: 15px;
+                    width: 100%;
+                    bottom: 0;
+                    padding: 30px 0;
+                    text-align: center;
+                    backdrop-filter: contrast(1.2) brightness(0.25) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+                    div {
+                        border-bottom: #c3a281 2px solid;
+                        width: 30%;
+                        padding-bottom: 5px;
+                        margin: 0 auto;
+                        margin-bottom: 20PX;
+                    }
+                    p {
+                        width: 80%;
+                        margin: 0 auto;
+                        color: #fff;
+                        margin-bottom: 20px;
+                    }
+                    button {
+                        padding: 10px 20px;
+                        background: #c3a281;
+                        border: none;
+                        cursor: pointer;
+                        color: #fff;
+                        i {
+                            margin-left: 7px;
+                        }
+                    }
+                }
+                img {
+                    padding-right: 0 !important;
+                }
+            }
+        }
+    }
+    .about_us {
+        z-index: 100;
+        margin-top: 50px;
+        position: relative;
+        .backdrop_bg {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            .content {
+                backdrop-filter: contrast(1.2) brightness(0.4) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+                padding-top: 40px;
+                .slide_aboutus {
+                    padding-bottom: 30px;
+                    overflow: hidden;
+                    width: 50%;
+                    padding-left: 30px;
+                    .back {
+                        position: absolute;
+                        z-index: 101;
+                        top: 43%;
+                        left: 0;
+                        color: white !important;
+                        background: #c3a281;
+                        font-size: 30px;
+                        padding: 40px 15px;
+                        cursor: pointer;
+                    }
+                    .slick-dots {
+                        display: flex;
+                        padding-left: 240px;
+                        margin-top: 20px;
+                        li {
+                            width: 60px;
+                            height: 3px;
+                            margin: 0 10px;
+                            background: #665444;
+                            cursor: pointer;
+                        }
+                        .slick-active {
+                            background: #c3a281;
+                        }
+                    }
+                    .chef:focus {
+                        outline: none;
+                    }
+                    img {
+                        width: 85%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    .info {
+                        background: #c3a281;
+                        width: 85%;
+                        padding: 15px 0;
+                        text-align: center;
+                        color: white;
+                        align-items: center;
+                        align-self: center;
+                        h4 {
+                            font-weight: 300;
+                            margin-bottom: 0 !important;
+                        }
+                        p {
+                            font-weight: 100;
+                            margin-bottom: 0 !important;
+                        }
+                        i {
+                            font-size: 15px;
+                            border: 1px solid white;
+                            padding: 12px 15px;
+                        }
+                    }
+                }
+                .aboutus_content {
+                    padding-top: 0px;
+                    width: 50%;
+                    .title {
+                        color: #dab38d;
+                        font-size: 30px;
+                        font-weight: 500;
+                        width: 50%;
+                        border-bottom: 2px solid #c3a281;
+                        margin-bottom: 10px;
+                    }
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        height: 100%;
+                    }
+                    p {
+                        margin: 0;
+                        margin-bottom: 5px;
+                        padding: 0;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .contact {
+        background-image: url('../img/homepage/rice3-banner.png');
+        background-repeat: no-repeat;
+        background-position: left -150px bottom;
+        .wrapper_contact {
+            .rice_banner {
+                width: auto;
+                z-index: 1;
+                .img1 {
+                    position: absolute;
+                    left: -150px;
+                    top: 200px;
+                }
+            }
+            .content {
+                z-index: 101;
+                padding: 50px;
+                width: 100%;
+                padding-bottom: 0;
+                .gr1 {
+                    width: 35%;
+                    padding-right: 15px;
+                    margin-left: 150px;
+                    .title {
+                        color: #dab38d;
+                        font-size: 30px;
+                        font-weight: 500;
+                        width: 180px;
+                        border-bottom: 2px solid #c3a281;
+                        margin-bottom: 10px;
+                    }
+                }
+                .gr2 {
+                    width: 65%;
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                        height: 85%;
+                        filter: contrast(1.2) brightness(1) sepia(0.3) saturate(1.5) hue-rotate(-100deg);
+                    }
+                }
+                .popup {
+                    position: absolute;
+                    width: 45%;
+                    left: 10%;
+                    top: 200px;
+                    form {
+                        padding: 50px;
+                        background: #c3a281;
+                        input,
+                        textarea {
+                            margin-bottom: 15px;
+                            padding: 10px 25px;
+                            background: #c3a281;
+                            border: 2px solid white;
+                            color: white;
+                        }
+                         ::placeholder {
+                            color: white;
+                        }
+                        button {
+                            width: 100px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

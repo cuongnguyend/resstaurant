@@ -1,0 +1,655 @@
+@media (min-width:768px) and (max-width: 1024px) {
+    header {
+        background-size: auto;
+        .logo_res {
+            margin: 0 auto;
+            display: block;
+        }
+        .logo {
+            display: none;
+        }
+    }
+    main {
+        .our_story {
+            padding: 30px 0 !important;
+            flex-direction: column-reverse;
+            background: url('../img/homepage/rice-banner.png') no-repeat top -270px right -160px !important;
+            .img {
+                width: 96%;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+            .content {
+                text-align: center;
+                width: 50% !important;
+                margin: 20px auto !important;
+                margin-bottom: 20px;
+                .title {
+                    justify-content: center;
+                    div {
+                        display: none;
+                    }
+                }
+                .btn {
+                    margin: 20px 0;
+                }
+            }
+        }
+        .slide_product {
+            .slide1_wrapper {
+                .gr1 img {
+                    padding: 10px !important;
+                }
+            }
+        }
+        .our_service {
+            .content-img {
+                margin: 30px auto;
+                .gr2 {
+                    flex-direction: column-reverse !important;
+                }
+                .gr1 {
+                    button {
+                        display: none;
+                    }
+                    .home {
+                        margin-top: 15px !important;
+                        margin-bottom: 0 !important;
+                    }
+                }
+                .gr3 {
+                    display: none;
+                }
+            }
+        }
+        .about_us {
+            .slide_aboutus {
+                .info {
+                    font-size: 13px;
+                    h4 {
+                        display: none;
+                    }
+                    p {
+                        display: none;
+                    }
+                }
+                .slick-dots {
+                    padding-left: 15% !important;
+                }
+            }
+        }
+        .contact {
+            .gr1 {
+                margin-left: 50px !important;
+            }
+            .gr2 {
+                display: none;
+            }
+            .popup {
+                position: relative !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 60% !important;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    // ourstory page 
+    main {
+        .introduce .contain .material,
+        .introduce .contain .product {
+            .material1,
+            .material2 {
+                flex-direction: column !important;
+                .content,
+                .img {
+                    width: 100% !important;
+                }
+                .content {
+                    padding: 0;
+                    align-items: center !important;
+                    p,
+                    .title {
+                        text-align: center !important;
+                        width: auto;
+                    }
+                    p {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+        .evalute {
+            background-size: auto;
+        }
+    }
+    // ourstory page 
+    //  menu page 
+    main {
+        .shop {
+            .img {
+                display: none;
+            }
+            .content {
+                width: 100% !important;
+                padding-left: 0 !important;
+                .product {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                .title,
+                p {
+                    text-align: center;
+                }
+                .gr-search {
+                    justify-content: center;
+                }
+            }
+        }
+        .shop2 {
+            .content {
+                .title,
+                p {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    //  menu page 
+    // about_us page
+    main {
+        .chef_list {
+            .chef_info {
+                .slide_chef {
+                    .chef1 {
+                        flex-direction: column;
+                        .info {
+                            margin: 0;
+                            width: 100%;
+                        }
+                        .img {
+                            width: 100%;
+                            margin-top: 10px;
+                            img {
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // about_us page
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width:1133px) {
+    main {
+        .primary_service {
+            .service2 {
+                margin-bottom: 30px;
+            }
+            .service1 {
+                flex-direction: column;
+                .img {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+                .content {
+                    width: 50%;
+                    margin: 0 auto;
+                    text-align: center;
+                    padding: 0;
+                    .title {
+                        justify-content: center;
+                        font-size: 30px;
+                        div {
+                            display: none;
+                        }
+                    }
+                    .content1 {
+                        font-size: 25px !important;
+                    }
+                }
+                .backdrop,
+                .backdrop2 {
+                    width: 100%;
+                    padding: 20% 0;
+                    font-size: 40PX;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        background-size: auto;
+        .header_menu {
+            display: flex !important;
+            flex-direction: row;
+            justify-content: space-around;
+            background-size: auto;
+            position: relative;
+        }
+        .logo_res {
+            margin-left: 30%;
+            display: block;
+        }
+        .res_menu {
+            display: block;
+            position: absolute;
+            left: 10px;
+            font-size: 25px;
+        }
+        .header_menu1 {
+            position: fixed;
+            overflow: hidden;
+            z-index: 1;
+            transition: 0.4s;
+            width: 0;
+            height: 300px;
+            flex-direction: column;
+            top: 0;
+            left: 0;
+            margin: 0 !important;
+            background: white;
+            .close {
+                display: block !important;
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+            div {
+                padding: 5px 0;
+                a {
+                    color: black;
+                }
+            }
+            .active a {
+                border-bottom: none !important;
+                color: #b29375;
+            }
+            div:hover {
+                background: #b29375;
+                a {
+                    color: white;
+                }
+            }
+        }
+        .logo {
+            display: none;
+        }
+    }
+    main {
+        .our_story {
+            padding: 30px 0 !important;
+            flex-direction: column-reverse;
+            background: url('../img/homepage/rice-banner.png') no-repeat top -270px right -160px !important;
+            .img {
+                width: 96%;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+            .content {
+                text-align: center;
+                width: 50% !important;
+                margin: 20px auto !important;
+                margin-bottom: 20px;
+                .title {
+                    justify-content: center;
+                    div {
+                        display: none;
+                    }
+                }
+                .btn {
+                    margin: 20px 0;
+                }
+            }
+        }
+        .slide_product .slide1_wrapper {
+            .gr3 .content {
+                .plus i {
+                    padding: 15px 20px;
+                }
+                button {
+                    padding: 5px 10px;
+                }
+            }
+            .gr1 img {
+                padding: 5px !important;
+            }
+            .controls-top {
+                .icon_prev,
+                .icon_next {
+                    font-size: 20px;
+                    padding: 30px 10px;
+                }
+            }
+        }
+        .our_service {
+            .content-img {
+                margin: 30px auto;
+                .gr2 {
+                    flex-direction: column-reverse !important;
+                }
+                .gr1 {
+                    button {
+                        display: none;
+                    }
+                    .home {
+                        margin-top: 15px !important;
+                        margin-bottom: 0 !important;
+                    }
+                }
+                .gr3 {
+                    display: none;
+                }
+            }
+        }
+        .about_us {
+            .backdrop_bg {
+                background-image: none !important;
+            }
+            .content {
+                display: flex;
+                flex-direction: column-reverse !important;
+                .aboutus_content {
+                    margin-bottom: 20px;
+                    width: 100% !important;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    div {
+                        width: 100% !important;
+                    }
+                    p {
+                        margin-bottom: 20px !important;
+                    }
+                }
+                .slide_aboutus {
+                    width: 100% !important;
+                    padding-left: 0 !important;
+                    .slick-dots {
+                        padding-left: 31% !important;
+                        li::marker {
+                            font-size: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .contact {
+            .gr1 {
+                margin-left: 50px !important;
+            }
+            .gr2 {
+                display: none;
+            }
+            .popup {
+                position: relative !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 60% !important;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    // ourstory page 
+    main {
+        .evalute {
+            background-size: auto;
+        }
+        .introduce .contain .material,
+        .introduce .contain .product {
+            .material1,
+            .material2 {
+                flex-direction: column !important;
+                .content,
+                .img {
+                    width: 100% !important;
+                }
+                .content {
+                    padding: 0;
+                    align-items: center !important;
+                    p,
+                    .title {
+                        text-align: center !important;
+                        width: auto;
+                    }
+                    p {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    // ourstory page 
+    //  menu page 
+    main {
+        .slide_product .nav-link1 {
+            font-size: 15px !important;
+        }
+        .shop {
+            .img {
+                display: none;
+            }
+            .content {
+                width: 100% !important;
+                padding-left: 0 !important;
+                .product {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                .title,
+                p {
+                    text-align: center;
+                }
+                .gr-search {
+                    justify-content: center;
+                }
+            }
+        }
+        .shop2 {
+            .content {
+                .title,
+                p {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    //  menu page 
+    // about_us page
+    main {
+        .chef_list {
+            .chef_info {
+                .slide_chef {
+                    .chef1 {
+                        flex-direction: column;
+                        .info {
+                            margin: 0;
+                            width: 100%;
+                        }
+                        .img {
+                            width: 100%;
+                            margin-top: 10px;
+                            img {
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // about_us page
+}
+
+@media (max-width:1024px) {
+    footer {
+        background-image: none !important;
+        .content {
+            flex-flow: column;
+            text-align: center;
+            .col1 {
+                padding-right: 0 !important;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width:576px) {
+    header .slide_banner {
+        padding-top: 50px !important;
+        height: 450px !important;
+        .carousel-item {
+            .title_web {
+                font-size: 45px !important;
+            }
+            .welcome {
+                font-size: 35px;
+            }
+            .content {
+                font-size: 18px !important;
+            }
+            .button {
+                .btn {
+                    padding: 5px 15px !important;
+                }
+            }
+            img {
+                width: 80%;
+            }
+        }
+        .carousel-indicators {
+            top: 350px !important;
+        }
+    }
+    main {
+        .our_story {
+            padding: 30px 0 !important;
+            background-image: none !important;
+            .content {
+                width: 80% !important;
+                .btn {
+                    margin: 10px 0;
+                }
+            }
+        }
+        .our_service {
+            margin-top: 50px;
+            .content {
+                .content-img .gr1 {
+                    img {
+                        padding: 5px !important;
+                    }
+                    .content {
+                        margin: 5px !important;
+                    }
+                }
+                .rice_banner {
+                    display: none !important;
+                }
+            }
+        }
+        .contact {
+            background-image: none !important;
+            .wrapper_contact {
+                .content {
+                    flex-direction: column !important;
+                    .gr1 {
+                        margin: 0 !important;
+                        padding: 0;
+                        text-align: center;
+                        width: 100%;
+                        .title {
+                            width: 100%;
+                        }
+                    }
+                    .popup {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+        .slide_product {
+            .controls-top {
+                display: none !important;
+            }
+            .gr3 .content {
+                .plus {
+                    i {
+                        padding: 20px 25px !important;
+                        font-size: 20px;
+                    }
+                }
+                button {
+                    display: none;
+                }
+            }
+        }
+    }
+    // menu page 
+    main {
+        .shop {
+            .content {
+                .product {
+                    flex-direction: column;
+                    .product1 {
+                        padding-right: 0 !important;
+                    }
+                    .product1:nth-child(1) {
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+    // menu page 
+    .primary_service {
+        .service1 {
+            .backdrop div,
+            .backdrop2 div {
+                display: none;
+            }
+        }
+    }
+    // about_us page
+    main {
+        .chef_list {
+            .chef_info {
+                .slide_chef {
+                    .chef1 {
+                        .img {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // about_us page
+}
